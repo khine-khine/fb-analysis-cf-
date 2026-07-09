@@ -1,0 +1,17 @@
+{
+  "name": "fb-analysis-cf",
+  "version": "1.0.0",
+  "description": "Facebook Follower Analyzer Telegram Bot - Cloudflare Pages Functions",
+  "scripts": {
+    "dev": "npx wrangler pages dev .",
+    "deploy": "npx wrangler pages deploy ."
+  },
+  "dependencies": {
+    "@resvg/resvg-wasm": "^2.6.0",
+    "fflate": "^0.8.2",
+    "satori": "^0.10.14"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
